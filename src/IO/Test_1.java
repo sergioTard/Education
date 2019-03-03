@@ -222,7 +222,7 @@ String file = "C:\\Users\\Сергей\\IdeaProjects\\Education\\src\\IO\\File_1
 
     public static void main(String[] args){
         String f = "C:\\test\\Optimization\\OptimizationWide\\Equipotential\\10V\\Sum=200.txt";
-        Print(ReadBuferFile(f));
+        //Print(ReadBuferFile(f));
     }
     static String[][] ReadBuferFile(String f){
 
@@ -267,7 +267,7 @@ String[][] ArrayString = new String[2][List.size()];
             for (int j = 0; j < arr.length; j++){
                 System.out.print(arr[j][i]+"  ");
             }
-            System.out.println();
+            System.out.println(102);
         }
     }
 }
